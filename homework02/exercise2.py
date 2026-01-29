@@ -1,5 +1,4 @@
 from Bio.Seq import Seq
-
 dna_sequence = Seq('GAACCGGGAGGTGGGAATCCGTCACATATGAGAAGGTATTTGCCCGATAA')
 
 g_count = dna_sequence.count('G')
