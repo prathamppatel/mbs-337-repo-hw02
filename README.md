@@ -1,2 +1,3 @@
-# Homework02 Repository
-# This repository contains the python files that solve the 4 exercises required for Homework02. Each exercise number goes to the corresponding exercise#.py file. 
+# Homework repository
+
+This repository contains each homework in seperate files. Please open the folder associated to the homework desired for viewing. 
