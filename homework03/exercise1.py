@@ -11,20 +11,9 @@ class ProteinEntry(BaseModel):
     geneName: str
     function: str
 
-
-#first_protein_dict = bio_data["protein_list"][0]
-#protein = ProteinEntry(**first_protein_dict)
-#print(protein)
-
 proteins = []
 for data in bio_data["protein_list"]:
     proteins.append(ProteinEntry(**data))
-
-#for protein in proteins:
-#    print(protein.primaryAccession)
-
-#print(proteins[0].sequence["mass"])
-
 
 def find_total_mass():
     total_mass: int = 0
